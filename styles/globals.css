@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Eudoxus Sans", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+li,a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@media  (max-width: 300px) {
+  .logo {
+      font-size: 20px;
+  }
+  .heading {
+      font-size: 30px;
+  }
+  .models {
+    display:none;
+  }
+}
